@@ -1,6 +1,7 @@
 import sqlite3 as sq
 import sys
 sys.path.append('/home/dyuzha/.me/real-dic')
+from db import *
 import req
 
 def answer(text)
@@ -10,6 +11,9 @@ def answer(text)
         return True
     elif ans == 'N'or 'n'
         return False
+
+
+
 
 
 class Kernel:
